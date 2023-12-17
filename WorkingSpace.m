@@ -147,8 +147,7 @@ legend('Show');
 Sig_p = slow_contraction.filterd_signal(p_start:p_end);
 CV = (std(Sig_p)/mean(Sig_p)) * 100;
 fprintf('CV = %f\n', CV);
-%% 2.2 : Q: What Does it mean physiologically? 
-%Ans : In Report
+
 %% 3.1 : Pre-processing rapid contraction
 rapid_contraction.signal=rapid_contraction.ref_signal/C*g;
 
@@ -261,9 +260,7 @@ xlabel('RFD Bins');
 ylabel('Frequency');
 title('Histogram of RFD');
 sgtitle('Contractions with Respective RFD Values and Histogram', 'FontSize', 14);
-%% 3.3 What is the physiological relevance? 
 
-% Ans: In Report
 
 %% 4.1: SIG to 2D Array
 slow_contraction.EMG = mean(cat(3, slow_contraction.SIG{:}), 3);
@@ -332,7 +329,3 @@ ylim([0 3.5])
 title('Scatterplot Rapid Data')
 xlabel('RMS')
 ylabel('Signal')
-
-
-
-
