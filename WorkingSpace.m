@@ -1,6 +1,4 @@
-%% Assignment Number 1
 % Course : Movement Neuroscience: Connections between the Brain and Muscles in Humans
-% Student Name : Abdul Moeed
 % Description : Various surface EMG data postprocessing and analysis steps.
 % FAU Erlangen
 %% Matlab script settings
